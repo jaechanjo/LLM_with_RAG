@@ -18,7 +18,7 @@
 
 ### 1. 모델 구조
 
-<img width="300" alt="teaser" src="./data/result/model_architecture.png">
+<img width="600" alt="teaser" src="./data/model_architecture.png">
 
 ### 2. 기술 설명
 
@@ -50,7 +50,7 @@
             - OpenAI Embedder
             - Clova Embedder(worst)
                 
-                <img width="300" alt="teaser" src="./data/result/comparison_table.png">
+                <img width="500" alt="teaser" src="./data/comparison_table.png">
                 
                 [Embeddings Drive the Quality of RAG: Voyage AI in Chat LangChain](https://blog.langchain.dev/voyage-embeddings-in-langchain-and-chat-langchain/)
                 
@@ -82,7 +82,7 @@
         - 근본적으로, 탐색을 잘 하는 것도 중요하지만, 탐색된 문서의 우선 순위를 매기는 것 또한 중요함.
             - Lost In the Middle 논문에 따르면, 시작과 끝의 프롬프트를 잘 기억하고 잘 답변하는 경향성이 모든 LLM에서 나타남.
               
-                <img width="300" alt="teaser" src="./data/result/graph.png">
+                <img width="300" alt="teaser" src="./data/graph.png">
                 
     2. 기술
         1. Bi-Encoder
@@ -93,8 +93,9 @@
             - 문서 끼리, 함께 임베딩 진행
             - 서로간 문맥 교환 O
             - 의미 분석 및 탐색 정교화
+  
       
-            <img width="300" alt="teaser" src="./data/result/encoder_comparison.png">
+            <img width="500" alt="teaser" src="./data/encoder_comparison.png">
             
     3. 응용
         1. 큰 의미 탐색은 Bi-Encoder로 진행
